@@ -1,6 +1,9 @@
 import smtplib
 import schedule
 import time
+from config import EMAIL_CONFIG
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 
 def send_email():
     # configs
