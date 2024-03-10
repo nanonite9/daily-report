@@ -1,5 +1,5 @@
 EMAIL_CONFIG = {
-    'sender_email': ''
-    'receiver_email': ''
-    'password': ''
+    'sender_email': 'null@null.null'
+    'receiver_email': 'bf@null.null'
+    'password': 'null'
 }
