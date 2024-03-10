@@ -7,9 +7,9 @@ from email.mime.text import MIMEText
 
 def send_email():
     # configs
-    sender_email = ''
-    receiver_email = ''
-    password = ''
+    sender_email = EMAIL_CONFIG['sender_email']
+    receiver_email = 'EMAIL_CONFIG['receiver_email']
+    password = EMAIL_CONFIG['password']
 
     # message container
     msg = MIMEMultipart('alt')
